@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+# Sample Data
+height = [150, 160, 165, 170, 175, 180, 185]
+weight = [50, 55, 60, 65, 70, 75, 80]
+# Create a scatter plot
+plt.scatter(height, weight, color='green', marker='o')
+# Add labels and title
+plt.title("Height vs Weight Scatter Plot")
+plt.xlabel("Height (cm)")
+plt.ylabel("Weight (kg)")
+# Display the plot
+plt.show()
